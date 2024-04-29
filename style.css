@@ -1,0 +1,201 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+
+.container {
+  padding: 0px 60px;
+}
+
+/* ====================================================================
+Header */
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 107px 19px 23px;
+}
+
+.logo img {
+  width: 151px;
+  height: 101px;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  width: 653px;
+  height: 28px;
+}
+
+.navigation a {
+  font-weight: 500;
+  font-size: 24px;
+  color: #957554;
+}
+
+/* =====================================================================
+Main */
+
+.first-section {
+  background-image: url(assets/Main.png);
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 80px;
+}
+
+.first-section-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 242px 173px 245px 257px;
+}
+
+.first-section-title {
+  font-weight: 700;
+  font-size: 80px;
+  color: #ffffff;
+  padding-bottom: 48px;
+}
+
+.first-section-description {
+  font-size: 24px;
+  font-weight: 500;
+  color: #ffffff;
+  padding-bottom: 53px;
+}
+
+.big-button {
+  font-size: 24px;
+  font-weight: 500;
+  color: #ffffff;
+  background-color: #dfaa5b;
+  padding: 25px 133px;
+  border-radius: 10px;
+}
+
+.second-section {
+  margin-bottom: 47px;
+}
+
+.second-section-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.second-section-title,
+.third-section-title {
+  font-size: 45px;
+  font-weight: 500;
+  color: #957554;
+}
+
+.rooms-card{  
+  width: 630px;
+    height: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.rooms-card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+.cards-content{
+    position: absolute;
+    left: 0;
+    bottom: 57px;
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+    align-items: center;
+    width: 100%;
+}
+
+.card-title{
+  font-weight: 500;
+  font-size: 40px;
+  color: #ffffff;
+}
+
+.small-button{
+
+font-size: 24px;
+font-weight: 500;
+color: #ffffff;
+width: 244px;
+height: 76px;
+background-color: #DFAA5B;
+padding: 24px 52px;
+border-radius: 10px;
+
+
+}
+
+.rooms-gallery{
+  display: flex;
+  gap: 60px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.third-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 38px;
+  margin-top: 55px;
+  margin-bottom: 122px;
+}
+
+footer{
+  background-color: black ;
+}
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 51px;
+  padding-left: 55px;
+  padding-right: 123px;
+  padding-bottom: 159px;
+}
+
+.footer-nav{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer-nav a{
+  color: #ffffff;
+}
+
+.contact p{
+  color: #ffffff  ;
+}
+
+.footer-logo img{
+  width: 154px;
+  height: 126px;
+}
+
+.contact-us{
+  font-weight: bold;
+}
+
